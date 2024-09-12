@@ -8,6 +8,8 @@ public class Refrigerator {
         if(this.hasWorkToDo){
             System.out.println("Ordering food for the fridge.");
             this.hasWorkToDo = false;
+        } else {
+            System.out.println("Fridge is fully stocked.");
         }
     }
 

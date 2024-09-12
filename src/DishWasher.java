@@ -9,6 +9,8 @@ public class DishWasher {
         if(this.hasWorkToDo){
             System.out.println("Dishes are being washed");
             this.hasWorkToDo = false;
+        } else {
+            System.out.println("No dishes in washer");
         }
     }
 
