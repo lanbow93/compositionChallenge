@@ -1,15 +1,14 @@
-public class DishWasher {
+public class CoffeeMaker {
     private boolean hasWorkToDo;
 
-    public DishWasher(boolean hasWorkToDo){
+    public CoffeeMaker(boolean hasWorkToDo){
         this.hasWorkToDo = hasWorkToDo;
     }
 
-    private void doDishes(){
+    private void brewCoffee(){
         if(this.hasWorkToDo){
-            System.out.println("Dishes are being washed");
+            System.out.println("Coffee is currently brewing");
             this.hasWorkToDo = false;
         }
     }
-
 }

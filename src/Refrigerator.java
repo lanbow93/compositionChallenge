@@ -1,5 +1,5 @@
 public class Refrigerator {
-    boolean hasWorkToDo;
+    private boolean hasWorkToDo;
     public Refrigerator(boolean hasWorkToDo){
         this.hasWorkToDo = hasWorkToDo;
     }
@@ -7,6 +7,7 @@ public class Refrigerator {
     private void orderFood(){
         if(this.hasWorkToDo){
             System.out.println("Ordering food for the fridge.");
+            this.hasWorkToDo = false;
         }
     }
 
